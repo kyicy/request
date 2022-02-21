@@ -1,6 +1,8 @@
 [![Go Report Card][goreportcard]][goreportcard]
 [![License][license-img]][license]
 [![GoDoc][doc-img]][doc]
+[![Build Status][ci-img]][ci]
+[![Coverage Status][cov-img]][cov]
 
 
 
