@@ -1,4 +1,4 @@
-[![Go Report Card][goreportcard]][goreportcard]
+[![Go Report Card][goreportcard-img]][goreportcard]
 [![License][license-img]][license]
 [![GoDoc][doc-img]][doc]
 [![Build Status][ci-img]][ci]
@@ -71,7 +71,8 @@ func TestRequestHeader(t *testing.T) {
 }
 ```
 
-[goreportcard]: https://goreportcard.com/badge/kyicy/request
+[goreportcard-img]: https://goreportcard.com/badge/kyicy/request
+[goreportcard]: https://goreportcard.com/report/kyicy/request
 [license-img]: https://img.shields.io/badge/License-AGPL_v3-blue.svg
 [license]: https://github.com/kyicy/request/blob/master/LICENSE
 [doc-img]: https://pkg.go.dev/badge/github.com/kyicy/request
