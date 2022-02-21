@@ -1,6 +1,8 @@
-[![Go Report Card](https://goreportcard.com/badge/kyicy/request)](https://goreportcard.com/report/kyicy/request)
-[![License](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/kyicy/request/blob/master/LICENSE)
-[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kyicy/request?tab=doc)
+[![Go Report Card][goreportcard]][goreportcard]
+[![License][license-img]][license]
+[![GoDoc][doc-img]][doc]
+[![Build Status][ci-img]][ci]
+[![Coverage Status][cov-img]][cov]
 
 
 
@@ -68,3 +70,13 @@ func TestRequestHeader(t *testing.T) {
 	res.Body.Close()
 }
 ```
+
+[goreportcard]: https://goreportcard.com/badge/kyicy/request
+[license-img]: https://img.shields.io/badge/License-AGPL_v3-blue.svg
+[license]: https://github.com/kyicy/request/blob/master/LICENSE
+[doc-img]: https://pkg.go.dev/badge/github.com/kyicy/request
+[doc]: https://pkg.go.dev/github.com/kyicy/request?tab=doc
+[ci-img]: https://github.com/kyicy/request/actions/workflows/go.yml/badge.svg
+[ci]: https://github.com/kyicy/request/actions/workflows/go.yml
+[cov-img]: https://codecov.io/gh/kyicy/request/branch/master/graph/badge.svg
+[cov]: https://codecov.io/gh/kyicy/request
